@@ -205,4 +205,8 @@
 
 					});
 
+	// Date for footer
+	let currentYear = new Date().getFullYear()
+	$('#copyright-year').text(currentYear);
+
 })(jQuery);
