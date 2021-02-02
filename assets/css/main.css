@@ -3255,6 +3255,10 @@ input, select, textarea {
 				text-align: right;
 			}
 
+			#wrapper section > header img {
+				max-width: 90%;
+			}
+
 				#wrapper section > header h2 {
 					margin: 0 0 5rem 0;
 				}
@@ -3832,6 +3836,10 @@ input, select, textarea {
 
 			#wrapper > section.intro > header > * {
 				transition: transform 1s ease, opacity 1s ease;
+			}
+
+			#wrapper > section.intro > header img {
+				max-width: 80%;
 			}
 
 			body.is-preload #wrapper > section.intro > header {

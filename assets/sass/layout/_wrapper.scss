@@ -76,6 +76,11 @@
 										width: (_size(header-width) - $pad);
 									}
 
+									img {
+										position:relative;
+										max-width: 50%;
+									}
+
 								// Line.
 									&:before {
 										margin-left: calc(50vw - #{$pad * 2});
