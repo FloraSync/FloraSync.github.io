@@ -14,3 +14,13 @@ cd src
 npm install
 npm run dev
 ```
+
+## Building and deploying in production
+
+To run this site in production, you should install modules, then build it with `npm run build` and run it with `npm start`:
+
+```
+npm install
+npm run build
+npm start
+```
