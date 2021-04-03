@@ -1,0 +1,17 @@
+.header {
+  background-color: #2ee4bb;
+  padding: 2em 10em 0 5em;
+}
+
+.headerContent {
+  margin-left: auto;
+  width: 20em;
+}
+
+.logo {
+  margin: 0 0 1.5em 0;
+}
+
+.logoImage {
+  max-width: 90%;
+}
