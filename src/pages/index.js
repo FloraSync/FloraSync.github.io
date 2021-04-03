@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import NavWideScreen from '../components/NavWideScreen'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -9,9 +10,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <NavWideScreen />
+
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Lean <a href="https://nextjs.org">Next.js!</a>
+          Learn <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
