@@ -1,17 +1,26 @@
 .header {
-  background-color: #2ee4bb;
-  padding: 2em 10em 0 5em;
+  background-color: #43d9b8;
+  padding: 2rem 10rem 0 5rem;
 }
 
 .headerContent {
   margin-left: auto;
-  width: 20em;
+  width: 22rem;
 }
 
 .logo {
-  margin: 0 0 1.5em 0;
+  margin: 0 0 2.3rem 0;
 }
 
 .logoImage {
   max-width: 90%;
+}
+
+.slogan {
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.175rem;
+  line-height: 2.5;
+  margin: 0 0 2rem 0;
+  text-transform: uppercase;
 }
