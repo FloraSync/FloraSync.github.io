@@ -3,7 +3,7 @@ import styles from '../styles/NavWideScreen.module.scss'
 
 export default function NavWideScreen() {
   return(
-    <div className={`${styles.header} col-6 d-none d-md-block`}>
+    <div className={`${styles.header} col-6 d-none d-xl-block`}>
       <div className={styles.headerContent}>
         <h1 className={styles.logo}>
           <img src="/florasync.png"
