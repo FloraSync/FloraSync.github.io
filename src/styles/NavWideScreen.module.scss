@@ -1,11 +1,29 @@
 .header {
-  background-color: #43d9b8;
+  background-color: #49fcd4;
+  background-image: url("/bg.svg");
+  background-attachment: fixed;
+	background-position: -50% 10%;
+	background-repeat: repeat-y;
+	background-size: 75% auto;
   padding: 2rem 10rem 0 5rem;
+}
+
+.header::before {
+  transition: opacity 1s ease;
+  
+  display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 50vw;
+	z-index: -1;
 }
 
 .headerContent {
   // margin-left: auto;
   // width: 22rem;
+  margin-top: 20vh;
 }
 
 .logo {
@@ -13,7 +31,8 @@
 }
 
 .logoImage {
-  max-width: 90%;
+  position: relative;
+  width: 100%;
 }
 
 .slogan {
@@ -24,3 +43,4 @@
   margin: 0 0 2rem 0;
   text-transform: uppercase;
 }
+

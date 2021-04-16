@@ -8,7 +8,7 @@ export default function Home() {
     <div className={`${styles.container}`}>
       <Header />
 
-      <div className="row">
+      <div id="wrapper" className="row">
         <NavWideScreen />
         <main className={`${styles.main} col-6`}>
           <h1 className={styles.title}>
