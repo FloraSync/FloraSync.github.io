@@ -1,4 +1,4 @@
-import Header from '../components/header'
+import Header from '../components/Head'
 import styles from '../styles/About.module.css'
 
 export default function About() {
